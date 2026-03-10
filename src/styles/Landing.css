@@ -1,0 +1,62 @@
+.landing-page-container {
+  padding: 100px 8%;
+}
+
+.landing-hero-section {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 60px;
+}
+
+.landing-hero-left {
+  max-width: 600px;
+}
+
+.landing-hero-intro {
+  color: #a87cff;
+  font-size: 14px;
+  letter-spacing: 2px;
+  margin-bottom: 10px;
+}
+
+.landing-hero-title {
+  font-size: 52px;
+  line-height: 1.2;
+  font-weight: 700;
+  margin-bottom: 20px;
+}
+
+.landing-hero-description {
+  color: #a7adc8;
+  line-height: 1.6;
+  margin-bottom: 35px;
+}
+
+.landing-hero-buttons {
+  display: flex;
+  gap: 20px;
+}
+
+.landing-projects-button {
+  background: linear-gradient(90deg,#7a5cff,#a26bff);
+  padding: 12px 28px;
+  border-radius: 8px;
+  color: white;
+}
+
+.landing-contact-button {
+  border: 1px solid #6f74ff;
+  padding: 12px 28px;
+  border-radius: 8px;
+  color: white;
+}
+
+.landing-highlight-card {
+  background: rgba(20,24,50,0.6);
+  backdrop-filter: blur(12px);
+  padding: 30px;
+  border-radius: 16px;
+  border: 1px solid rgba(150,120,255,0.2);
+  width: 350px;
+}

@@ -1,0 +1,29 @@
+.techstack-page-container {
+  padding: 100px 8%;
+}
+
+.techstack-header-title {
+  font-size: 42px;
+}
+
+.techstack-grid-section {
+  margin-top: 60px;
+
+  display: grid;
+  grid-template-columns: repeat(3,1fr);
+  gap: 30px;
+}
+
+.techstack-frontend-card,
+.techstack-backend-card,
+.techstack-database-card {
+  background: rgba(18,22,45,0.7);
+  border-radius: 16px;
+  padding: 30px;
+  border: 1px solid rgba(150,120,255,0.15);
+}
+
+.techstack-grid-section li {
+  margin-bottom: 8px;
+  color: #c3c7e6;
+}
