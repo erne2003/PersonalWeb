@@ -8,39 +8,22 @@ import Projects from "./Screens/Projects";
 import Resume from "./Screens/Resume";
 import Contact from "./Screens/Contact";
 import Footer from "./Screens/Footer";
-
+import { Routes, Route } from "react-router-dom";
 export default function App() {
   return (
-    <div>
-
+    <>
       <Navbar />
 
-      <section id="home">
-        <Landing />
-      </section>
-
-      <section id="about">
-        <AboutMe />
-      </section>
-
-      <section id="stack">
-        <TechStack />
-      </section>
-
-      <section id="projects">
-        <Projects />
-      </section>
-
-      <section id="resume">
-        <Resume />
-      </section>
-
-      <section id="contact">
-        <Contact />
-      </section>
+      <Routes>
+        <Route path="/" element={<Landing />} />
+        <Route path="/about" element={<AboutMe />} />
+        <Route path="/techstack" element={<TechStack />} />
+        <Route path="/projects" element={<Projects />} />
+        <Route path="/resume" element={<Resume />} />
+        <Route path="/contact" element={<Contact />} />
+      </Routes>
 
       <Footer />
-
-    </div>
+    </>
   );
 }

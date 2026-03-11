@@ -1,6 +1,7 @@
 import React from "react";
 import "../src/NavBar.css";
-
+import { Link } from "react-router-dom";
+import 'bootstrap/dist/css/bootstrap.min.css';
 export default function Navbar() {
   return (
     <nav className="navbar-container">
@@ -11,12 +12,12 @@ export default function Navbar() {
 
       <div className="navbar-links">
 
-        <a href="#home">Home</a>
-        <a href="#about">About</a>
-        <a href="#stack">Stack</a>
-        <a href="#projects">Projects</a>
-        <a href="#resume">Resume</a>
-        <a href="#contact">Contact</a>
+        <Link to="/Home"><i class="bi bi-house"></i> </Link> 
+        <Link to="/about">About</Link>
+        <Link to="/stack">Stack</Link>
+        <Link to="/projects">Projects</Link>
+        <Link to="/resume">Resume</Link>
+        <Link to="/contact">Contact</Link>
 
       </div>
 
