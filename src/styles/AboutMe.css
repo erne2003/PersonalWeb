@@ -44,6 +44,8 @@
 /* CARDS */
 .about-background-card{
   color: white;
+  height: 100%;
+  margin-left: -5%;
 }
 .about-background-card,
 .about-focus-card{
@@ -66,7 +68,8 @@ color: white;
 }
 
 .about-focus-card{
-width: 100%;
+width: 150%;
+margin-right: -5%;
 }
 
 .about-background-card:hover,

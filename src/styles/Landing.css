@@ -134,6 +134,7 @@
   0 15px 45px rgba(120,90,255,0.25);
 
   transition:0.25s;
+  color: white;
 }
 
 .landing-highlight-card:hover{
