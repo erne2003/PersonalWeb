@@ -38,7 +38,7 @@ export default function AboutMe() {
 
         <div className="about-focus-card">
 
-          <h2>Current Focus</h2>
+          <h2 style={{fontSize:20, display:"flex", justifyContent:"center", paddingBottom:20}}>Current Passion/Strengths</h2>
 
           <ul className="about-focus-list">
 
@@ -50,6 +50,8 @@ export default function AboutMe() {
           </ul>
 
         </div>
+
+        
 
       </section>
 

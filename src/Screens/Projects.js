@@ -11,13 +11,13 @@ export default function Projects() {
       stack: "React Native, Node.js, Firebase",
     },
     {
-      title: "Workout Tracker",
+      title: "Image Puzzle",
       description:
         "Mobile application to track workouts, sets, and long-term training progress.",
       stack: "React Native",
     },
     {
-      title: "Secure File Storage",
+      title: "Shopping Experience/Analysis",
       description:
         "Encrypted file storage application concept using authentication and secure upload.",
       stack: "React, Node.js",

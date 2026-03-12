@@ -4,13 +4,6 @@ import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
 import { BrowserRouter, Routes, Route } from "react-router-dom";
-import AboutMe from './Screens/AboutMe';
-import Contact from './Screens/Contact';
-import Footer from './Screens/Footer';
-import Landing from './Screens/Landing';
-import Projects from './Screens/Projects';
-import Resume from './Screens/Resume';
-import TechStack from './Screens/TechStack';
 
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
