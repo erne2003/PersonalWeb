@@ -1,0 +1,41 @@
+.footer-container{
+
+  color:white;
+  background:
+  linear-gradient(180deg,#040611,#02030a);
+
+  padding:40px 8%;
+
+  display:flex;
+
+  justify-content:space-between;
+
+  border-top:1px solid rgba(120,120,255,0.15);
+
+}
+
+.footer-name{
+
+  font-size:20px;
+
+  color:white;
+
+  font-weight:600;
+
+}
+
+.footer-description{
+
+  color:#aab1cb;
+
+  margin-top:6px;
+
+}
+
+.footer-stack{
+
+  color:#9aa0b7;
+
+  font-size:14px;
+
+}

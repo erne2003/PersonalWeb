@@ -1,0 +1,125 @@
+.contact-page-container{
+
+  padding:100px 8%;
+
+  background:
+  radial-gradient(circle at 70% 0%, rgba(168,85,247,0.12), transparent 40%),
+  linear-gradient(180deg,#040611 0%,#070b1a 100%);
+
+}
+
+/* HEADER */
+
+.contact-header-title{
+
+  font-size:42px;
+  font-weight:700;
+  color:white;
+
+}
+
+/* DETAILS */
+
+.contact-details-section{
+
+  display:flex;
+  gap:25px;
+
+  margin-top:40px;
+color: white;
+}
+
+.contact-info-card{
+
+  background:rgba(18,22,45,0.75);
+
+  padding:25px;
+
+  border-radius:16px;
+
+  border:1px solid rgba(140,120,255,0.15);
+
+  backdrop-filter:blur(12px);
+
+  box-shadow:
+  0 10px 35px rgba(0,0,0,0.35);
+}
+
+/* FORM */
+
+.contact-message-form{
+
+  margin-top:50px;
+
+  max-width:500px;
+
+  display:flex;
+
+  flex-direction:column;
+
+  gap:14px;
+
+}
+
+/* INPUTS */
+
+.contact-name-input,
+.contact-email-input,
+.contact-message-textarea{
+
+  background:#121631;
+
+  border:1px solid rgba(160,120,255,0.2);
+
+  padding:12px;
+
+  border-radius:10px;
+
+  color:white;
+
+  transition:0.25s;
+
+}
+
+.contact-name-input:focus,
+.contact-email-input:focus,
+.contact-message-textarea:focus{
+
+  outline:none;
+
+  border-color:#a87cff;
+
+}
+
+/* BUTTON */
+
+.contact-submit-button{
+
+  background:linear-gradient(
+  135deg,
+  #7a5cff,
+  #a26bff
+  );
+
+  border:none;
+
+  padding:12px;
+
+  border-radius:10px;
+
+  color:white;
+
+  cursor:pointer;
+
+  box-shadow:
+  0 10px 35px rgba(140,107,255,0.35);
+
+  transition:0.25s;
+
+}
+
+.contact-submit-button:hover{
+
+  transform:translateY(-3px);
+
+}
