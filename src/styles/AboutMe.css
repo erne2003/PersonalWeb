@@ -128,3 +128,36 @@ color: white;
   0 15px 40px rgba(120,90,255,0.25);
 
 }
+
+@media (max-width: 798px){
+
+.about-page-container{
+  width: 100%;
+  padding: 90px 6%;
+  box-sizing: border-box;
+}
+.about-content-section{
+  display: flex;
+  justify-content: center;
+  flex-direction:column;
+  width: 100%;
+  gap: 20px;
+}
+.about-focus-card{
+  width: 100%;
+  margin-right: 0;
+}
+.about-background-card{
+  width: 100%;
+  margin-left: 0;
+  margin-right: 0;
+}
+.about-highlights-section{
+  flex-direction: column;
+  gap: 15px;
+}
+.about-highlight-card{
+  width: 100%;
+}
+
+}

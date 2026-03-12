@@ -153,6 +153,8 @@
   color:white;
 
   transition:0.25s;
+  
+  display: none;
 
 }
 
@@ -161,5 +163,26 @@
   transform:translateY(-2px);
 
   border-color:#a87cff;
+
+}
+
+@media (max-width: 798px){
+
+  .projects-page-container{
+    width: 100%;
+    padding: 90px 6%;
+    box-sizing: border-box;
+  }
+
+  .projects-grid-section{
+    grid-template-columns: 1fr;
+    gap: 18px;
+    margin-top: 40px;
+  }
+
+  .projects-project-card{
+    width: 100%;
+    padding: 22px;
+  }
 
 }

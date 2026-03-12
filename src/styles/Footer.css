@@ -39,3 +39,12 @@
   font-size:14px;
 
 }
+
+@media (max-width: 798px){
+
+  .footer-container{
+    width: 100%;
+    padding: 40px 6%;
+  }
+
+}
