@@ -26,7 +26,7 @@ export default function Footer() {
         </p>
 
         <p className="footer-stack">
-          React • Node • Mobile Apps
+          React • Node • Mobile Apps • JavaScript • Java • SQL
         </p>
 
       </div>
