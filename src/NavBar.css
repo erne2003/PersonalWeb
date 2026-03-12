@@ -16,9 +16,12 @@
   z-index: 1000;
 }
 
+
+
 .navbar-logo {
   font-weight: 700;
   font-size: 20px;
+  color: rgb(183, 181, 181);
 }
 
 .navbar-links {

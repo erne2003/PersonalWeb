@@ -38,7 +38,8 @@ export default function TechStack() {
           <ul>
             <li>Node.js</li>
             <li>Express</li>
-            <li>REST APIs</li>
+            <li>APIs / Api Integration</li>
+            <li>Java</li>
           </ul>
 
         </div>

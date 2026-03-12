@@ -28,6 +28,13 @@
   color: #61dafb;
 }
 
+body {
+  background: radial-gradient(circle at top,#0b1025,#050814);
+  color: white;
+  margin: 0;
+  font-family: system-ui, sans-serif;
+}
+
 @keyframes App-logo-spin {
   from {
     transform: rotate(0deg);

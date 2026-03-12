@@ -1,48 +1,127 @@
-.about-page-container {
-  padding: 100px 8%;
+.about-page-container{
+
+  padding:100px 8%;
+
+  background:
+  radial-gradient(circle at 20% 10%, rgba(124,58,237,0.12), transparent 40%),
+  radial-gradient(circle at 80% 0%, rgba(168,85,247,0.10), transparent 45%),
+  linear-gradient(180deg,#040611 0%,#070b1a 100%);
+
 }
 
-.about-header-title {
-  font-size: 42px;
-  margin-bottom: 10px;
+/* HEADER */
+
+.about-header-title{
+
+  font-size:42px;
+  font-weight:700;
+  color:white;
+
+  margin-top: 20px;
+  margin-bottom:10px;
+
 }
 
-.about-header-description {
-  max-width: 600px;
-  color: #a7adc8;
+.about-header-description{
+
+  max-width:600px;
+  color:#fdfdfd;
+  line-height:1.7;
+
 }
 
-.about-content-section {
-  display: flex;
-  gap: 30px;
-  margin-top: 60px;
+/* CONTENT */
+
+.about-content-section{
+
+  display:flex;
+  gap:30px;
+
+  margin-top:60px;
+
 }
 
+/* CARDS */
+.about-background-card{
+  color: white;
+}
 .about-background-card,
-.about-focus-card {
-  background: rgba(18,22,45,0.7);
-  padding: 35px;
-  border-radius: 16px;
-  border: 1px solid rgba(140,120,255,0.2);
+.about-focus-card{
+
+  background:rgba(18,22,45,0.7);
+
+  padding:35px;
+
+  border-radius:18px;
+
+  border:1px solid rgba(140,120,255,0.25);
+
+  backdrop-filter:blur(14px);
+
+  box-shadow:
+  0 10px 40px rgba(0,0,0,0.35);
+
+  transition:0.3s;
+color: white;
 }
 
-.about-focus-list li {
-  margin-bottom: 10px;
-  color: #c3c7e6;
+.about-focus-card{
+width: 100%;
 }
 
-.about-highlights-section {
-  display: flex;
-  gap: 25px;
-  margin-top: 70px;
+.about-background-card:hover,
+.about-focus-card:hover{
+
+  transform:translateY(-6px);
+
+  border-color:rgba(168,124,255,0.45);
+
 }
 
-.about-highlight-card {
-  flex: 1;
-  background: rgba(20,24,50,0.7);
-  border-radius: 14px;
-  padding: 25px;
+/* LIST */
+
+.about-focus-list li{
+
+  margin-bottom:10px;
+
+  color:#f4f1f1;
+
 }
-.about-focus-list{
-  width: 100;
+
+/* HIGHLIGHTS */
+
+.about-highlights-section{
+
+  display:flex;
+  gap:25px;
+
+  margin-top:70px;
+
+}
+
+.about-highlight-card{
+
+  flex:1;
+
+  background:rgba(20,24,50,0.7);
+
+  border-radius:16px;
+
+  padding:25px;
+
+  border:1px solid rgba(140,120,255,0.2);
+
+  backdrop-filter:blur(14px);
+
+  transition:0.25s;
+color: white;
+}
+
+.about-highlight-card:hover{
+
+  transform:translateY(-6px);
+
+  box-shadow:
+  0 15px 40px rgba(120,90,255,0.25);
+
 }
