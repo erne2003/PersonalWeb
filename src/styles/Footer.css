@@ -11,6 +11,10 @@
   justify-content:space-between;
 
   border-top:1px solid rgba(120,120,255,0.15);
+  
+  width: 100%;
+  box-sizing: border-box;
+  overflow-x: hidden;
 
 }
 
@@ -45,6 +49,34 @@
   .footer-container{
     width: 100%;
     padding: 40px 6%;
+    flex-direction: column;
+    gap: 20px;
+  }
+
+}
+
+/* Ultra-narrow screens (Galaxy Z Flip, etc) */
+@media (max-width: 380px){
+
+  .footer-container{
+    padding: 20px 4%;
+  }
+
+  .footer-name{
+    font-size: 16px;
+  }
+
+  .footer-description{
+    margin-top: 4px;
+    font-size: 12px;
+  }
+
+  .footer-location{
+    font-size: 12px;
+  }
+
+  .footer-stack{
+    font-size: 11px;
   }
 
 }
