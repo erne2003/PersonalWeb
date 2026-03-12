@@ -89,6 +89,27 @@
   }
 }
 
+/* Ultra-narrow screens (Galaxy Z Flip, etc) */
+@media (max-width: 380px) {
+  .navbar-container {
+    padding: 0 1%;
+    height: 55px;
+  }
+
+  .navbar-links {
+    gap: 6px;
+    margin-left: 30px;
+  }
+
+  .navbar-links a {
+    font-size: 7px;
+  }
+
+  .bi-house {
+    font-size: 24px;
+  }
+}
+
 
 
 .navbar-logo {

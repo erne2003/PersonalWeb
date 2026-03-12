@@ -6,6 +6,9 @@
     #040611 40%,
     #05071a 100%
   );
+  width: 100%;
+  box-sizing: border-box;
+  overflow-x: hidden;
 }
 
 
@@ -229,6 +232,42 @@
 
   .landing-overview-card {
     padding: 26px 22px;
+  }
+
+}
+
+/* Ultra-narrow screens (Galaxy Z Flip, etc) */
+@media (max-width: 380px) {
+
+  .landing-hero-section{
+    padding: 80px 4% 80px;
+    gap: 40px;
+  }
+
+  .landing-hero-title{
+    font-size: 36px;
+  }
+
+  .landing-hero-description{
+    font-size: 14px;
+  }
+
+  .landing-hero-buttons{
+    gap: 10px;
+  }
+
+  .landing-projects-button,
+  .landing-contact-button{
+    padding: 10px 20px;
+    font-size: 12px;
+  }
+
+  .landing-hero-right{
+    display: none;
+  }
+
+  .landing-overview-section {
+    padding: 60px 4%;
   }
 
 }
