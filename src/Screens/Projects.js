@@ -62,11 +62,11 @@ export default function Projects() {
 
               <button  onClick={() => {
               let url =""
-              if ( project.title == "Expense Tracker") {
+              if ( project.title === "Expense Tracker") {
                 url = "https://github.com/erne2003/ExpenseTracker"
-              } else if ( project.title == "Image Puzzle") {
+              } else if ( project.title === "Image Puzzle") {
                 url = "https://github.com/erne2003/PuzzleGame"
-              } else if ( project.title == "Shopping Experience/Analysis") {
+              } else if ( project.title === "Shopping Experience/Analysis") {
                 url = "https://github.com/erne2003/DataMining"
               }
               window.open(url, "_blank");
