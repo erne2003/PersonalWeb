@@ -22,28 +22,32 @@
   align-items: center;
   gap: 14px;
   margin-left: 40px;
+  flex-wrap: nowrap;
+  white-space: nowrap;
 }
 
-
-
+/* Tablet devices (768px and below) */
 @media (max-width: 768px) {
   .navbar-logo {
     display: none;
   }
 
+  .navbar-container {
+    padding: 0 4%;
+  }
+
   .navbar-links {
-    gap: 10px;
-    font-size: 14px;
+    gap: 16px;
+    margin-left: 30px;
   }
 
   .navbar-links a {
-    font-size: 14px;
+    font-size: 13px;
   }
 
   .navbar-links a:first-child {
     position: absolute;
     left: 4%;
-    
     top: 50%;
     transform: translateY(-50%);
     display: flex;
@@ -58,10 +62,26 @@
   .bi-house {
     font-size: 35px;
   }
+}
 
+/* Mobile devices (480px and below) */
+@media (max-width: 480px) {
   .navbar-container {
-    width: 100%;
-    padding: 0 4%;
+    padding: 0 3%;
+    height: 60px;
+  }
+
+  .navbar-links {
+    gap: 12px;
+    margin-left: 50px;
+  }
+
+  .navbar-links a {
+    font-size: 11px;
+  }
+
+  .bi-house {
+    font-size: 28px;
   }
 }
 
