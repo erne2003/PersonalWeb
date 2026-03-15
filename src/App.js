@@ -1,6 +1,7 @@
 import React from "react";
 import Navbar from "./NavBar";
-
+import { Analytics } from "@vercel/analytics/react"
+import { SpeedInsights } from "@vercel/speed-insights/react"
 import Landing from "./Screens/Landing";
 import AboutMe from "./Screens/AboutMe";
 import TechStack from "./Screens/TechStack";
@@ -12,6 +13,8 @@ import { Routes, Route } from "react-router-dom";
 export default function App() {
   return (
     <>
+    <Analytics />
+    <SpeedInsights />
       <Navbar />
 
       <Routes>
