@@ -123,3 +123,26 @@ color: white;
   transform:translateY(-3px);
 
 }
+
+@media (max-width: 798px){
+
+  .contact-page-container{
+    width: 100%;
+    padding: 90px 6%;
+    box-sizing: border-box;
+  }
+
+  .contact-details-section{
+    flex-direction: column;
+    gap: 15px;
+  }
+
+  .contact-info-card{
+    width: 100%;
+  }
+
+  .contact-message-form{
+    max-width: 100%;
+  }
+
+}

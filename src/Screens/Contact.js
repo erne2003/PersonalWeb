@@ -1,7 +1,29 @@
-import React from "react";
+import React, { useRef } from "react";
+import emailjs from "@emailjs/browser";
 import "../styles/Contact.css";
 
 export default function Contact() {
+
+  const form = useRef();
+
+  const sendEmail = (e) => {
+    e.preventDefault();
+
+    emailjs.sendForm(
+      "service_qu03dit",
+      "template_fuex6v3",
+      form.current,
+      "jYeKPowyF-rTt6Xzw"
+    )
+      .then(() => {
+        alert("Message sent successfully!");
+        form.current.reset();
+      })
+      .catch((error) => {
+        console.log("EmailJS error:", error);
+        alert("Failed to send message.");
+      });
+  };
 
   return (
     <main className="contact-page-container">
@@ -36,26 +58,39 @@ export default function Contact() {
 
       <section className="contact-form-section">
 
-        <form className="contact-message-form">
+        <form
+          ref={form}
+          onSubmit={sendEmail}
+          className="contact-message-form"
+        >
 
           <input
             className="contact-name-input"
             type="text"
+            name="name"
             placeholder="Your Name"
+            required
           />
 
           <input
             className="contact-email-input"
             type="email"
+            name="email"
             placeholder="Your Email"
+            required
           />
 
           <textarea
             className="contact-message-textarea"
+            name="message"
             placeholder="Message"
+            required
           />
 
-          <button className="contact-submit-button">
+          <button
+            type="submit"
+            className="contact-submit-button"
+          >
             Send Message
           </button>
 
