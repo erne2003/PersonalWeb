@@ -17,10 +17,10 @@ export default function Projects() {
       stack: "React Native, Node.js, MinMax Algorithm, Javascript,HTML5, CSS",
     },
     {
-      title: "Shopping Experience/Analysis",
+      title: "Apex Workout Planner",
       description:
-        "Encrypted file storage application concept using authentication and secure upload.",
-      stack: "React, Node.js, JavaScript, Apriori Algorithm, HTML5, CSS",
+        "APEX Fitness is a cross-platform mobile application built to provide high-performance tracking for strength training and hypertrophy",
+      stack: "React & Next.js, Node.js, JavaScript, HTML5, CSS, Postgre SQL, Node/Express.js, Email Authentication, JWT Authentication",
     },
   ];
 
@@ -29,7 +29,7 @@ export default function Projects() {
 
       <section className="projects-header-section">
 
-        <h1 className="projects-header-title" style={{marginBottom:50}}>
+        <h1 className="projects-header-title" style={{ marginBottom: 50 }}>
           Projects
         </h1>
 
@@ -60,20 +60,20 @@ export default function Projects() {
 
             <div className="projects-project-buttons">
 
-              <button  onClick={() => {
-              let url =""
-              if ( project.title === "Expense Tracker") {
-                url = "https://github.com/erne2003/ExpenseTracker"
-              } else if ( project.title === "Image Puzzle") {
-                url = "https://github.com/erne2003/PuzzleGame"
-              } else if ( project.title === "Shopping Experience/Analysis") {
-                url = "https://github.com/erne2003/DataMining"
-              }
-              window.open(url, "_blank");
-            }}
-             className="projects-github-button">
-              GitHub
-            </button>
+              <button onClick={() => {
+                let url = ""
+                if (project.title === "Expense Tracker") {
+                  url = "https://github.com/erne2003/ExpenseTracker"
+                } else if (project.title === "Image Puzzle") {
+                  url = "https://github.com/erne2003/PuzzleGame"
+                } else if (project.title === "Apex Workout Planner") {
+                  url = "https://github.com/erne2003/Workout-Planner"
+                }
+                window.open(url, "_blank");
+              }}
+                className="projects-github-button">
+                GitHub
+              </button>
 
               <button className="projects-demo-button">
                 Demo

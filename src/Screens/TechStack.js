@@ -40,6 +40,8 @@ export default function TechStack() {
             <li>Express</li>
             <li>APIs / Api Integration</li>
             <li>Java</li>
+            <li>JWT Authentication</li>
+            <li>Email Authentication</li>
           </ul>
 
         </div>
