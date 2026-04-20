@@ -9,18 +9,21 @@ export default function Projects() {
       description:
         "A budgeting and expense tracking app with transaction insights and category analysis.",
       stack: "React Native, Node.js, Firebase, Plaid API, Javascript, HTML5, CSS",
+      Status: "Developing"
     },
     {
       title: "Image Puzzle",
       description:
         "Mobile application to track workouts, sets, and long-term training progress.",
       stack: "React Native, Node.js, MinMax Algorithm, Javascript,HTML5, CSS",
+      Status: "Developing"
     },
     {
       title: "Apex Workout Planner",
       description:
         "APEX Fitness is a cross-platform mobile application built to provide high-performance tracking for strength training and hypertrophy",
       stack: "React & Next.js, Node.js, JavaScript, HTML5, CSS, Postgre SQL, Node/Express.js, Email Authentication, JWT Authentication",
+      Status: "Completed"
     },
   ];
 
@@ -75,9 +78,7 @@ export default function Projects() {
                 GitHub
               </button>
 
-              <button className="projects-demo-button">
-                Demo
-              </button>
+              <button hidden={project.Status === "Developing"} className="projects-view-project-button" onClick={() => { window.open("https://www.apextracker.dev/", "_blank") }}> View Project </button>
 
             </div>
 
